@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FB | Contact</title>
+	<link rel="icon" type="image/png" href="favicon.png"/>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="message">
+		<div class="messageContent">
+			<div class="messageText">
+				<strong>Volunteer registration is open:</strong> Join the Future Builders team!
+		  	</div>
+			<button class="messageClose" type="button">
+				<span class="closeButton">
+					<strong>X</strong>
+				</span>
+			</button>
+		</div>
+	</div>
+	
+	<nav>
+		<img src="logosmall.png" alt="logo" class="logo">
+		<ul>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="updates.html">Updates</a></li>
+			<li><a href="programs.html">Programs</a></li>
+			<li><a href="enroll.html">Enroll</a></li>
+			<li><a href="volunteer.html">Volunteer</a></li>
+			<li><a href="donate.html">Donate</a></li>
+            <li><a class="active" href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+	<header class="contact header">
+		<h1>Contact Us</h1>
+	</header>
+	<div class="updatesContact">
+		<form action="mailto:edu.futurebuilders@gmail.com" method="get" enctype="text/plain" class="email">
+			<div>
+				<label for="name">Name:
+					<input type="text" name="name" id="name" />
+				</label>
+			</div>
+			<div>
+				<label for="email">Email:
+					<input type="text" name="email" id="email" />
+				</label>
+			</div>
+			<div>
+				<label>Message:</label>
+				<br></br>
+				<textarea name="comments" rows="12" cols="35">Type message here.</textarea>
+			</div>
+			<div>
+			<input class = "formButton" type="submit" name="submit" value="Send" />
+			<input class = "formButton" type="reset" name="reset" value="Clear" />
+			</div>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
